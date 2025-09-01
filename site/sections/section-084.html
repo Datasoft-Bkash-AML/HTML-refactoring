@@ -1,0 +1,7 @@
+<div class="rey-wishlist-list">
+				<# for (var i = 0; i < data.num; i++) { #>
+					<# var ttFixed = typeof data.fixedContainer !== "undefined" && data.fixedContainer ? "data-fx-tooltip" : ""; #>
+					<div class="rey-wishlistItem" style="transition-delay: {{i * 0.07}}s ">
+						<div class="rey-wishlistItem-thumbnail ">
+							<a href="{{data.ob[i].url}}" class="rey-wishlistItem-thumbnailLink">{{{data.ob[i].image}}}</a>
+							<# if( typeof data.ob[i].add_to_cart !== "undefined" ){ #><div class="rey-wishlistItem-atc --no-var-popup" data-rey-tooltip="{{data.ob[i].add_to_cart_text}}" data-rey-tooltip-source="wishlist-atc" {{{ttFixed}}}>{{{data.ob[i].add_to_cart}}}</div>

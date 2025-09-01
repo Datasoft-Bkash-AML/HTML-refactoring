@@ -1,0 +1,9 @@
+<div data-ss-container>
+	<div class="rey-cartRecent-items">
+		<# for (var i = 0; i < items.length; i++) { #>
+		<div class="rey-cartRecent-item __cart-product" data-id="{{items[i].id}}">
+			<div class="rey-cartRecent-itemThumb ">
+				<a href="{{items[i].link}}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+					{{{items[i].image}}}
+				</a>
+			</div>

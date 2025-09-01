@@ -1,0 +1,12 @@
+<div class="__the-content">
+					<# for (var i = 0; i < data.items.length; i++) { #>
+					<div class="__product" data-id="{{data.items[i].id}}">
+						<a href="{{data.items[i].link}}" class="__product-link">
+							{{{data.items[i].image}}}
+						</a>
+						<# if( data.items[i].brand ){ #>
+							<span class="__product-brand">{{{data.items[i].brand}}}</span>
+						<# } #>
+						<h4 class="__product-title"><a href="{{data.items[i].link}}">{{{data.items[i].title}}}</a></h4>
+						<span class="__product-price">{{{data.items[i].price}}}</span>
+					</div>

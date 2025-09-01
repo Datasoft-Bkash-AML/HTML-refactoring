@@ -1,0 +1,8 @@
+<div class="rey-demoPanel-ctg">
+		<# Object.keys(data).forEach(function(item, index) { #>
+			<# var ctgName = data[index].replace(/-/g, ' ').toUpperCase(); #>
+			<# var isActive = index === 0 ? '--active' : ''; #>
+			<# ctgName = index === 0 ? 'All' : ctgName; #>
+			<span class="rey-demoPanel-ctgItem {{isActive}}" data-category="{{data[index]}}">{{ctgName}}</span>
+		<# }); #>
+	</div>

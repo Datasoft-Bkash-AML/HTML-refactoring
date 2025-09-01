@@ -1,0 +1,6 @@
+<div class="rey-cartRecent-itemContent">
+				<# if(items[i].brand){ #> {{{items[i].brand}}} <# } #>				<h4 class="rey-cartRecent-itemTitle"><a href="{{items[i].link}}">{{{items[i].title}}}</a></h4>
+				<span class="price rey-loopPrice">{{{items[i].price}}}</span>
+				<div class="rey-cartRecent-itemButtons">
+					{{{items[i].button}}}
+					<# if(items[i].quickview){ #> {{{items[i].quickview}}} <# } #><# if(items[i].wishlist){ #> {{{items[i].wishlist}}} <# } #>				</div>

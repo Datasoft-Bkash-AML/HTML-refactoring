@@ -1,0 +1,12 @@
+<div class="rey-demoPanel-contentItems">
+		<# Object.keys(data.items).forEach(function(item, index) { #>
+		<# if( data.items[item]?.visibility !== 'private' ){ #>
+			<# var keywords = typeof data.items[item].k !== 'undefined' ? data.items[item].k : ''; #>
+			<# var categories = typeof data.items[item].categories !== 'undefined' ? data.items[item].categories : ''; #>
+				<div class="rey-demoPanel-item " data-keywords="{{keywords}}" data-categories="{{categories}}">
+					<div class="rey-demoPanel-itemContent">
+						<a href="{{data.items[item]['url']}}" target="_blank" class="rey-demoPanel-itemThumbnail">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{data.items[item].preview_img}}" alt="{{data.items[item].name}}" class="">
+						</a>
+						<h4 class="rey-demoPanel-itemName">{{{data.items[item].name}}}</h4>
+					</div>

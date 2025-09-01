@@ -1,0 +1,18 @@
+<div class="splide rey-crossSells-carousel --loading" data-slider-config='{"autoplay":false,"autoplaySpeed":3000}'>
+						<h3 class="rey-crossSells-carousel-title">
+				<span class="__text">You may also like&hellip;</span>
+				<!-- <span class="__hidebtn --dnone-lg --dnone-md">
+					<svg aria-hidden="true" role="img" id="rey-icon-arrow-68b4fce72dfca" class="rey-icon rey-icon-arrow " viewbox="0 0 22 13"><style type="text/css">.rey-icon-arrow.--to-left{transform:rotate(90deg) scale(0.7);}.rey-icon-arrow.--to-right{transform:rotate(-90deg) scale(0.7);}.rey-icon-arrow.--to-top{transform:rotate(180deg);}</style><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <polygon fill="currentColor" points="-0.01 2.44 10.99 13.073 21.98 2.44 19.5 0.008 10.99 8.243 2.47 0.008"></polygon></g></svg>				</span> -->
+			</h3>
+			
+			<div class="splide__track">
+				<div class="rey-crossSells-itemsWrapper splide__list">
+					
+		<# for (var i = 0; i < items.length; i++) { #>
+		<div class="rey-crossSells-item __cart-product splide__slide" data-id="{{items[i].id}}">
+			<div class="rey-crossSells-itemThumb">
+				<a href="{{items[i].link}}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+					{{{items[i].image}}}
+				</a>
+			</div>
