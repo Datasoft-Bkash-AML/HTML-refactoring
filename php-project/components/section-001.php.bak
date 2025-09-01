@@ -1,0 +1,9 @@
+<?php
+// Section 001: Placeholder section (converted from chunk-1)
+// The actual site wrapper is provided by `site-wrapper-start.php` to avoid duplicate
+?>
+<section class="section-001">
+    <div class="container">
+        <!-- Intro / placeholder content preserved for layout testing -->
+    </div>
+</section>

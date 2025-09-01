@@ -1,0 +1,5 @@
+<?php
+// Component: site wrapper start (from tmp_chunks/chunk-1.html)
+?>
+<div id="page" class="rey-siteWrapper">
+    <div class="rey-overlay rey-overlay--site"></div>
