@@ -1,0 +1,14 @@
+{
+  "name": "html-refactoring-assets-fetcher",
+  "version": "1.0.0",
+  "description": "Playwright script to download images, fonts and assets from a site",
+  "main": "download-assets.js",
+  "scripts": {
+    "download-assets": "node download-assets.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
