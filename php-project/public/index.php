@@ -9,8 +9,6 @@ $layout = [
         'components/hero-slider.php',
         'components/feature-headings.php',
         'components/hero.php',
-        'components/hero-slide-innovative.php',
-        'components/hero-slide-outstanding.php',
         'components/promo-apple-watch.php',
         'components/cta-button.php',
         'components/promo-badge.php',

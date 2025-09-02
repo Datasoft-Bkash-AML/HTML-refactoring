@@ -16,7 +16,8 @@
         <a class="rey-crossSells-bubble-close btn btn-primary-outline btn--block" href="#">Continue shopping</a>
     </div>
 
-    <div class="splide rey-crossSells-carousel --loading" data-slider-config='{"autoplay":false,"autoplaySpeed":3000}' role="region" aria-roledescription="carousel" aria-label="Suggested products">
+    <?php $cross_cfg = ['autoplay'=>false,'autoplaySpeed'=>3000]; ?>
+    <div class="splide rey-crossSells-carousel --loading" data-slider-config='<?php echo htmlspecialchars(json_encode($cross_cfg), ENT_QUOTES, "UTF-8"); ?>' role="region" aria-roledescription="carousel" aria-label="Suggested products">
         <h3 class="rey-crossSells-carousel-title"><span class="__text">You may also like&hellip;</span></h3>
         <div class="splide__track">
             <div class="rey-crossSells-itemsWrapper splide__list">

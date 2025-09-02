@@ -14,7 +14,8 @@ $products = [
     <a class="btn btn--ghost" href="#" role="link" aria-label="View all promotions">View all</a>
   </header>
 
-  <div class="splide" role="region" aria-roledescription="carousel" aria-label="Promotions carousel" data-splide-options='{"perPage":4,"gap":"1rem","breakpoints":{"1024":{"perPage":3},"640":{"perPage":1}}}'>
+  <?php $splide_opts = ['perPage'=>4,'gap'=>'1rem','breakpoints'=>[1024=>['perPage'=>3],640=>['perPage'=>1]]]; ?>
+  <div class="splide" role="region" aria-roledescription="carousel" aria-label="Promotions carousel" data-splide-options='<?php echo htmlspecialchars(json_encode($splide_opts), ENT_QUOTES, "UTF-8"); ?>'>
     <div class="splide__track" role="listbox">
       <ul class="splide__list" role="list">
         <?php foreach($products as $p): ?>

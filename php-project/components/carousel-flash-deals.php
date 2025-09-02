@@ -58,7 +58,8 @@ $products = [
         </div>
     </div>
 
-    <div class="splide" data-splide-options='{"type":"slide","perPage":4,"gap":"16px","pagination":false,"arrows":true,"breakpoints":{"1024":{"perPage":3},"768":{"perPage":2},"480":{"perPage":1}}}'>
+    <?php $splide_opts = ['type'=>'slide','perPage'=>4,'gap'=>'16px','pagination'=>false,'arrows'=>true,'breakpoints'=>[1024=>['perPage'=>3],768=>['perPage'=>2],480=>['perPage'=>1]]]; ?>
+    <div class="splide" data-splide-options='<?php echo htmlspecialchars(json_encode($splide_opts), ENT_QUOTES, "UTF-8"); ?>'>
         <div class="splide__track">
             <ul class="splide__list">
                     <?php foreach($products as $p): ?>

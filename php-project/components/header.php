@@ -36,7 +36,8 @@ require_once __DIR__ . '/../config.php';
                 <div class="elementor-widget-container">
                             <div class="rey-textScroller clearfix">
         
-        <div class="rey-textScroller-items splide rey-textScroller-559cd29  --vertical" role="region" aria-roledescription="marquee" aria-label="Site announcements" data-slider-config='{"type":"fade","autoplay":true,"interval":4000,"delayInit":2000,"customArrows":false,"speed":1}' >
+    <?php $slider_cfg = ['type'=>'fade','autoplay'=>true,'interval'=>4000,'delayInit'=>2000,'customArrows'=>false,'speed'=>1]; ?>
+    <div class="rey-textScroller-items splide rey-textScroller-559cd29  --vertical" role="region" aria-roledescription="marquee" aria-label="Site announcements" data-slider-config='<?php echo htmlspecialchars(json_encode($slider_cfg), ENT_QUOTES, "UTF-8"); ?>' >
 
             <div class="splide__track" role="listbox" aria-label="Announcements">
                 <div class="splide__list" role="list">

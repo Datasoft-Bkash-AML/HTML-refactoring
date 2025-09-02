@@ -1,18 +1,8 @@
 <?php
-// Promo block: Apple Watch (from chunk-6 & chunk-7)
-// Usage: include 'components/promo-apple-watch.php' where the promo should appear
+// Promo block: Apple Watch (neutralized)
+// Previously emitted a promo; neutralized during HTML parity conversion so server output
+// matches canonical `scripts/index.html`. Keep this placeholder so the layout order
+// and include list remain unchanged. If you want the promo back, restore original markup.
+// Original content moved to _archive/chunk-006.php and _archive/chunk-007.php for reference.
+// (No output)
 ?>
-<div class="promo-apple-watch elementor-column rey-lazyBg">
-    <div class="elementor-column-wrap elementor-widget-wrap elementor-element-populated">
-        <div class="elementor-element elementor-widget elementor-widget-heading">
-            <div class="elementor-widget-container">
-                <h6 class="elementor-heading-title elementor-size-default">Apple watch 8 series</h6>
-            </div>
-        </div>
-        <div class="elementor-element elementor-widget elementor-widget-heading">
-            <div class="elementor-widget-container">
-                <h3 class="elementor-heading-title elementor-size-default">The future of health is on your wrist</h3>
-            </div>
-        </div>
-    </div>
-</div>

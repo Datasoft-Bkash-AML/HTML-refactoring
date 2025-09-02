@@ -136,3 +136,66 @@ To view locally (dev container):
 php -S localhost:8000 -t php-project/public
 
 
+## DOM diff review tasks (from dom_diff_report.json)
+
+The automated DOM diff (dom_diff_report.json) reported several mismatches between the original tmp-chunks and the server-rendered HTML. The following tasks map those report sections to likely components/chunks, list concrete actions, and include quick commands to find the exact chunk files when unknown.
+
+- hero_slider
+	- Likely components: `components/hero.php`, `components/hero-slider.php`, `components/hero-slide-*.php`, `components/carousel-*.php`.
+	- Symptom: malformed/escaped `data-carousel-settings` JSON landed in `class` attribute; slider markup differs (counts and attributes).
+	- Action: inspect slider components for JSON printing/escaping; fix attribute escaping (use `esc_attr( wp_json_encode($config) )` or `htmlspecialchars(...)`).
+	- Suggested chunk(s): `scripts/tmp-chunks/chunk-3.html` (section-hero-page) and other chunk files that contain slides.
+	- Priority: High
+
+- hero_slides
+	- Likely components: slide templates (hero slides and product slides). Source: `a.splide__slide`, `li.splide__slide` variants.
+	- Symptom: source shows 27 slides, server shows 32 (extra product slides or duplicate rendering).
+	- Action: decide whether hero slider should contain only hero slides; separate product carousels; convert repetitive slides into a PHP loop.
+	- Quick check: count splide__slide occurrences in tmp-chunks and PHP output.
+	- Priority: High
+
+- promo_apple_watch
+	- Likely component: `components/promo-apple-watch.php` (exists in components list but may be empty or missing converted content).
+	- Symptom: server contains promo copy/heading that the source chunk shows empty (conversion missed or server-side injection).
+	- Action: find the original promo chunk and populate `components/promo-apple-watch.php` or mark as intentionally dynamic.
+	- Priority: Medium
+
+- product_grids / product_titles
+	- Likely components: `carousel-new-arrivals.php`, `category-carousel.php`, `search-items.php`, `search-items.php` (templates shown in tracker).
+	- Symptom: product slide markup differs (markup, classes, product meta placeholders).
+	- Action: ensure product templates use the expected markup (li/product-card structure) or standardize to a shared partial.
+	- Priority: Medium
+
+- newsletter_form / headings
+	- Likely components: `components/newsletter-cta.php`, `components/newsletter-mailchimp.php`, heading partials.
+	- Symptom: missing or differing form/heading markup or ARIA attributes.
+	- Action: copy server-provided accessible attributes where appropriate and ensure forms keep names/actions.
+	- Priority: Low/Medium
+
+### Quick repo search commands (run from repo root)
+
+Use these to locate the exact chunk files and component files referenced by the report.
+
+```bash
+# find promo chunk(s)
+grep -R "promo-apple-watch" scripts/tmp-chunks || true
+
+# find splide slides in tmp-chunks (shows files and lines)
+grep -R "splide__slide" scripts/tmp-chunks -n || true
+
+# count splide__slide occurrences in server output (after you render server HTML)
+grep -o "splide__slide" /tmp/server.html | wc -l || true
+
+# find where data-carousel-settings is emitted in components
+grep -R "data-carousel-settings" php-project -n || true
+```
+
+### Suggested updates to the tracker
+
+- Mark `components/promo-apple-watch.php` as `Inspected / Pending content` (until we locate chunk).
+- Mark slider-related components as `Converted (needs review)` and add notes about escaping fixes.
+- Add an entry in this tracker once the exact chunk number is identified for each item above.
+
+If you'd like, I can now run the quick grep commands above to locate the exact tmp-chunk files and then prepare a small patch to fix escaping in the corresponding component(s). Tell me to proceed and I'll run the searches and prepare the changes.
+
+

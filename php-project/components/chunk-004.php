@@ -8,7 +8,22 @@
 				<div class="elementor-element elementor-element-aec60b3 u-ov-hidden elementor-widget elementor-widget-reycore-basic-slider" data-id="aec60b3" data-element_type="widget" data-widget_type="reycore-basic-slider.default">
 				<div class="elementor-widget-container">
 					
-		<div data-slider-carousel-id="slider-623d84be78fe3" data-carousel-settings="{&quot;direction&quot;:&quot;ltr&quot;,&quot;infinite&quot;:true,&quot;autoplay&quot;:true,&quot;interval&quot;:10000,&quot;pause_on_hover&quot;:true,&quot;transition&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;uniqueID&quot;:&quot;slider-623d84be78fe3&quot;,&quot;targetSync&quot;:&quot;""&quot;,&quot;customArrows&quot;:false,&quot;pagination&quot;:true}" data-c-anim="top" class="splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide">
+			<?php
+			$carousel_cfg = [
+				'direction' => 'ltr',
+				'infinite' => true,
+				'autoplay' => true,
+				'interval' => 10000,
+				'pause_on_hover' => true,
+				'transition' => 'slide',
+				'speed' => 500,
+				'uniqueID' => 'slider-623d84be78fe3',
+				'targetSync' => '',
+				'customArrows' => false,
+				'pagination' => true,
+			];
+			?>
+			<div data-slider-carousel-id="slider-623d84be78fe3" data-carousel-settings='<?php echo htmlspecialchars(json_encode($carousel_cfg), ENT_QUOTES, "UTF-8"); ?>' data-c-anim="top" class="splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide">
 		
 		<div class="splide__track">
 			<div class="splide__list __slides">
