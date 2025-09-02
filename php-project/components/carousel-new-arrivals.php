@@ -85,7 +85,34 @@ require_once __DIR__ . '/../config.php';
         <div class="woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel " data-carousel-settings="{&quot;type&quot;:&quot;slide&quot;,&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_show_tablet&quot;:3,&quot;slides_to_show_mobile&quot;:2,&quot;slides_to_move&quot;:false,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:null,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;infinite&quot;:true,&quot;infinite_tablet&quot;:false,&quot;infinite_mobile&quot;:false,&quot;speed&quot;:500,&quot;direction&quot;:&quot;ltr&quot;,&quot;carousel_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;0&quot;,&quot;right&quot;:&quot;0&quot;,&quot;bottom&quot;:&quot;0&quot;,&quot;left&quot;:&quot;0&quot;,&quot;isLinked&quot;:true},&quot;carousel_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;carousel_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;0&quot;,&quot;right&quot;:&quot;60&quot;,&quot;bottom&quot;:&quot;0&quot;,&quot;left&quot;:&quot;0&quot;,&quot;isLinked&quot;:false},&quot;delayInit&quot;:&quot;&quot;,&quot;customArrows&quot;:&quot;.__arrows-3c5a705&quot;,&quot;free_drag&quot;:[],&quot;side_offset&quot;:&quot;&quot;}" data-qt="recent">
 
         <div class="splide reyEl-productGrid-splide carousel-6238a381cedc0" data-skin="proto"><div class="splide__track"><ul class="products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto" data-slider-carousel-id="carousel-6238a381cedc0" data-discount-mobile-top="yes" data-params="[]" >
-        <!-- product slides preserved as static HTML for now -->
+        <?php
+        // Render product slides here to match canonical markup (includes .woocommerce-loop-product__title)
+        $grid_products = [
+            [ 'title' => 'Innovative smart watch', 'link' => '#', 'price' => '$399', 'brand' => 'X-Form' ],
+            [ 'title' => 'Powerful Bluetooth speaker', 'link' => '#', 'price' => '$549', 'brand' => 'Quantech' ],
+            [ 'title' => 'High-end wireless subwoofer', 'link' => '#', 'price' => '$1,989', 'brand' => 'SquareX' ],
+            [ 'title' => 'Comfortable over-ear headphones', 'link' => '#', 'price' => '$689', 'brand' => 'Quantech' ],
+            [ 'title' => 'Pocket camera', 'link' => '#', 'price' => '$199', 'brand' => 'Quantech' ],
+            [ 'title' => 'Ultimate over-ear headphones', 'link' => '#', 'price' => '$789', 'brand' => 'Quantech' ],
+        ];
+
+        foreach($grid_products as $gp): ?>
+            <li class="product splide__slide">
+                <div class="rey-productInner">
+                    <div class="rey-productThumbnail">
+                        <a class="woocommerce-loop-product__link" href="<?php echo $gp['link']; ?>">
+                            <img src="<?php echo asset_path('images/sample-1.svg'); ?>" alt="<?php echo htmlspecialchars($gp['title']); ?>">
+                        </a>
+                    </div>
+                    <div class="rey-productMeta">
+                        <div class="rey-brandLink --catalog"><a href="#"><?php echo htmlspecialchars($gp['brand']); ?></a></div>
+                        <h2 class="woocommerce-loop-product__title"><a href="<?php echo $gp['link']; ?>"><?php echo htmlspecialchars($gp['title']); ?></a></h2>
+                        <div class="__break"></div>
+                        <span class="price rey-loopPrice"><span class="woocommerce-Price-amount amount"><bdi><?php echo $gp['price']; ?></bdi></span></span>
+                    </div>
+                </div>
+            </li>
+        <?php endforeach; ?>
         </ul></div><div class="reyEl-productGrid-carouselNav __arrows-3c5a705 --dnone-md --dnone-sm"><div class="rey-arrowSvg rey-arrowSvg--left " data-dir="<"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 12"><path d="M19.8 12L26 6L19.9 -5.33279e-07L18.4 1.4L22.1 5L6.11959e-07 5L4.37114e-07 7L22.1 7L18.4 10.6L19.8 12Z"></path></svg></div><div class="rey-arrowSvg rey-arrowSvg--right " data-dir=">"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 12"><path d="M19.8 12L26 6L19.9 -5.33279e-07L18.4 1.4L22.1 5L6.11959e-07 5L4.37114e-07 7L22.1 7L18.4 10.6L19.8 12Z"></path></svg></div></div></div></div>                </div>
                 </div>
                     </div>

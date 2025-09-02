@@ -1,0 +1,780 @@
+WROTE /workspaces/HTML-refactoring/dom_diff_report.json
+WROTE /workspaces/HTML-refactoring/dom_diff_report.json
+
+    "parser": "lxml",
+    "counts": {
+      "splide__slide_source": 27,
+      "splide__slide_server": 32
+    },
+    "promo_class_in_server": true
+  },
+  "sections": {
+    "hero_slider": {
+      "label": "Hero slider",
+      "source": {
+        ".elementor-widget-reycore-basic-slider": {
+          "count": 1,
+          "sample_text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+          "sample_html": "<div class=\"elementor-element elementor-element-aec60b3 u-ov-hidden elementor-widget elementor-widget-reycore-basic-slider\" data-element_type=\"widget\" data-id=\"aec60b3\" data-widget_type=\"reycore-basic-slider.default\">\n <div class=\"elementor-widget-container\">\n  <div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n   <div class=\"splide__track\">\n    <div class=\"splide__list __slides\">\n     <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n      <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-fran"
+        },
+        ".rey-bSlider": {
+          "count": 1,
+          "sample_text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+          "sample_html": "<div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n    <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectan"
+        },
+        ".splide": {
+          "count": 6,
+          "sample_text": "FREE WORLDWIDE SHIPPING OVER $100 LAST CALL: LOWEST PRICE GUARANTEE 50% OFF. EXPLORE",
+          "sample_html": "<div class=\"rey-textScroller-items splide rey-textScroller-559cd29 --vertical\" data-slider-config='{\"type\":\"fade\",\"autoplay\":true,\"interval\":4000,\"delayInit\":2000,\"customArrows\":false,\"speed\":1}'>\n <div class=\"splide__track\">\n  <div class=\"splide__list\">\n   <div class=\"splide__slide rey-textScroller-item\">\n    <span>\n     <p>\n      FREE WORLDWIDE SHIPPING OVER $100\n     </p>\n    </span>\n   </div>\n   <div class=\"splide__slide rey-textScroller-item\" data-lazy-hidden=\"\">\n    <span>\n     <p>\n      LAST CALL: LOWEST PRICE GUARANTEE 50% OFF.\n      <a href=\"#\">\n       EXPLORE\n      </a>\n     </p>\n    </span>\n   </div>\n  </div>\n </div>\n</div>\n"
+        },
+        "[data-slider-carousel-id]": {
+          "count": 5,
+          "sample_text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+          "sample_html": "<div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n    <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectan"
+        },
+        "samples": [
+          {
+            "selector": ".elementor-widget-reycore-basic-slider",
+            "text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+            "html_snippet": "<div class=\"elementor-element elementor-element-aec60b3 u-ov-hidden elementor-widget elementor-widget-reycore-basic-slider\" data-element_type=\"widget\" data-id=\"aec60b3\" data-widget_type=\"reycore-basic-slider.default\">\n <div class=\"elementor-widget-container\">\n  <div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n   <div class=\"splide__track\">\n    <div class=\"splide__list __slides\">\n     <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n      <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-fran"
+          },
+          {
+            "selector": ".rey-bSlider",
+            "text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+            "html_snippet": "<div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n    <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectan"
+          },
+          {
+            "selector": ".splide",
+            "text": "FREE WORLDWIDE SHIPPING OVER $100 LAST CALL: LOWEST PRICE GUARANTEE 50% OFF. EXPLORE",
+            "html_snippet": "<div class=\"rey-textScroller-items splide rey-textScroller-559cd29 --vertical\" data-slider-config='{\"type\":\"fade\",\"autoplay\":true,\"interval\":4000,\"delayInit\":2000,\"customArrows\":false,\"speed\":1}'>\n <div class=\"splide__track\">\n  <div class=\"splide__list\">\n   <div class=\"splide__slide rey-textScroller-item\">\n    <span>\n     <p>\n      FREE WORLDWIDE SHIPPING OVER $100\n     </p>\n    </span>\n   </div>\n   <div class=\"splide__slide rey-textScroller-item\" data-lazy-hidden=\"\">\n    <span>\n     <p>\n      LAST CALL: LOWEST PRICE GUARANTEE 50% OFF.\n      <a href=\"#\">\n       EXPLORE\n      </a>\n     </p>\n    </span>\n   </div>\n  </div>\n </div>\n</div>\n"
+          },
+          {
+            "selector": ".splide",
+            "text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+            "html_snippet": "<div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n    <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectan"
+          },
+          {
+            "selector": ".splide",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n <div class=\"splide__track\">\n  <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n   <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n    <div class=\"rey-productInner --box-styler\">\n     <div class=\"rey-productThumbnail\">\n      <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francis"
+          },
+          {
+            "selector": "[data-slider-carousel-id]",
+            "text": "Innovative, wireless home speaker Discover Outstanding performance EXPLORE",
+            "html_snippet": "<div class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\",\"customArrows\":false,\"pagination\":true}' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n    <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectan"
+          },
+          {
+            "selector": "[data-slider-carousel-id]",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n     <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes"
+          },
+          {
+            "selector": "[data-slider-carousel-id]",
+            "text": "Wearables 5 Wearables 5 EXPLORE Speakers 6 Speakers 6 EXPLORE Headphones 3 Headphones 3 EXPLORE Cameras 5 Cameras 5 EXPLORE Accessories 5 Accessories 5 EXPLORE",
+            "html_snippet": "<div class=\"splide carousel-6238a381c700b\" data-side-offset=\"right\" data-slider-carousel-id=\"carousel-6238a381c700b\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <div class=\"splide__slide __slide elementor-repeater-item-prod-cat-50\">\n    <div class=\"rey-card --brooklyn\">\n     <a aria-label=\"Wearables 5\" class=\"__media-link\" href=\"https://demos.reytheme.com/san-francisco/product-category/wearables/\">\n      <img alt=\"\" class=\"__media\" data-lazy-sizes=\"(max-width: 600px) 100vw, 600px\" data-lazy-src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/03/image_23.jpg\" data-lazy-srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/03/image_23.jpg 600w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/03/image_23-265x300.jpg 265w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/03/image_23-330x374.jpg 330w\" decoding=\"async\" height=\"680\" src=\"data:image/svg+xml,%3Csv"
+          }
+        ]
+      },
+      "server": {
+        ".elementor-widget-reycore-basic-slider": {
+          "count": 1,
+          "sample_text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+          "sample_html": "<div class=\"elementor-element elementor-element-aec60b3 u-ov-hidden elementor-widget elementor-widget-reycore-basic-slider\" data-element_type=\"widget\" data-id=\"aec60b3\" data-widget_type=\"reycore-basic-slider.default\">\n <div class=\"elementor-widget-container\">\n  <div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n   <div class=\"splide__track\">\n    <div class=\"splide__list __slides\">\n     <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n      <img alt=\"Innovative, wireless home speaker\" class=\"__me"
+        },
+        ".rey-bSlider": {
+          "count": 1,
+          "sample_text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+          "sample_html": "<div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n    <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n    <div class=\"__caption\">\n     <h2 class=\"__captionEl __title\">\n      Innovative, wirele"
+        },
+        ".splide": {
+          "count": 8,
+          "sample_text": "FREE WORLDWIDE SHIPPING OVER $100 LAST CALL: LOWEST PRICE GUARANTEE 50% OFF. EXPLORE",
+          "sample_html": "<div aria-label=\"Site announcements\" aria-roledescription=\"marquee\" class=\"rey-textScroller-items splide rey-textScroller-559cd29 --vertical\" data-slider-config='{\"type\":\"fade\",\"autoplay\":true,\"interval\":4000,\"delayInit\":2000,\"customArrows\":false,\"speed\":1}' role=\"region\">\n <div aria-label=\"Announcements\" class=\"splide__track\" role=\"listbox\">\n  <div class=\"splide__list\" role=\"list\">\n   <div class=\"splide__slide rey-textScroller-item\" role=\"option\">\n    <span>\n     <p>\n      FREE WORLDWIDE SHIPPING OVER $100\n     </p>\n    </span>\n   </div>\n   <div class=\"splide__slide rey-textScroller-item\" data-lazy-hidden=\"\" role=\"option\">\n    <span>\n     <p>\n      LAST CALL: LOWEST PRICE GUARANTEE 50% OFF.\n      <a href=\"#\">\n       EXPLORE\n      </a>\n     </p>\n    </span>\n   </div>\n  </div>\n </div>\n</div>\n"
+        },
+        "[data-slider-carousel-id]": {
+          "count": 2,
+          "sample_text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+          "sample_html": "<div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n    <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n    <div class=\"__caption\">\n     <h2 class=\"__captionEl __title\">\n      Innovative, wirele"
+        },
+        "samples": [
+          {
+            "selector": ".elementor-widget-reycore-basic-slider",
+            "text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+            "html_snippet": "<div class=\"elementor-element elementor-element-aec60b3 u-ov-hidden elementor-widget elementor-widget-reycore-basic-slider\" data-element_type=\"widget\" data-id=\"aec60b3\" data-widget_type=\"reycore-basic-slider.default\">\n <div class=\"elementor-widget-container\">\n  <div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n   <div class=\"splide__track\">\n    <div class=\"splide__list __slides\">\n     <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n      <img alt=\"Innovative, wireless home speaker\" class=\"__me"
+          },
+          {
+            "selector": ".rey-bSlider",
+            "text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+            "html_snippet": "<div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n    <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n    <div class=\"__caption\">\n     <h2 class=\"__captionEl __title\">\n      Innovative, wirele"
+          },
+          {
+            "selector": ".splide",
+            "text": "FREE WORLDWIDE SHIPPING OVER $100 LAST CALL: LOWEST PRICE GUARANTEE 50% OFF. EXPLORE",
+            "html_snippet": "<div aria-label=\"Site announcements\" aria-roledescription=\"marquee\" class=\"rey-textScroller-items splide rey-textScroller-559cd29 --vertical\" data-slider-config='{\"type\":\"fade\",\"autoplay\":true,\"interval\":4000,\"delayInit\":2000,\"customArrows\":false,\"speed\":1}' role=\"region\">\n <div aria-label=\"Announcements\" class=\"splide__track\" role=\"listbox\">\n  <div class=\"splide__list\" role=\"list\">\n   <div class=\"splide__slide rey-textScroller-item\" role=\"option\">\n    <span>\n     <p>\n      FREE WORLDWIDE SHIPPING OVER $100\n     </p>\n    </span>\n   </div>\n   <div class=\"splide__slide rey-textScroller-item\" data-lazy-hidden=\"\" role=\"option\">\n    <span>\n     <p>\n      LAST CALL: LOWEST PRICE GUARANTEE 50% OFF.\n      <a href=\"#\">\n       EXPLORE\n      </a>\n     </p>\n    </span>\n   </div>\n  </div>\n </div>\n</div>\n"
+          },
+          {
+            "selector": ".splide",
+            "text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+            "html_snippet": "<div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n    <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n    <div class=\"__caption\">\n     <h2 class=\"__captionEl __title\">\n      Innovative, wirele"
+          },
+          {
+            "selector": ".splide",
+            "text": "Minimal Leather Wallet $39 View Canvas Tote Bag $49 View Classic Sunglasses $79 View Everyday Sneakers $129 View Wool Scarf $29 View",
+            "html_snippet": "<div aria-label=\"New Arrivals carousel\" aria-roledescription=\"carousel\" class=\"splide\" data-splide-options='{\"type\":\"slide\",\"perPage\":4,\"perMove\":1,\"gap\":\"16px\",\"rewind\":false,\"pagination\":false,\"arrows\":true,\"breakpoints\":{\"1024\":{\"perPage\":3},\"768\":{\"perPage\":2},\"480\":{\"perPage\":1}}}' role=\"region\">\n <div class=\"splide__track\" role=\"listbox\">\n  <ul class=\"splide__list\" role=\"list\">\n   <li class=\"splide__slide product\">\n    <div class=\"product-card\">\n     <div class=\"product-thumb\">\n      <img alt=\"Minimal Leather Wallet\" src=\"/assets/images/sample-1.svg\"/>\n     </div>\n     <div class=\"product-meta\">\n      <h4 class=\"product-title\">\n       Minimal Leather Wallet\n      </h4>\n      <div class=\"product-price\">\n       $39\n      </div>\n      <a aria-label=\"View Minimal Leather Wallet\" class=\"btn\" href=\"#\" role=\"button\">\n       View\n      </a>\n     </div>\n    </div>\n   </li>\n   <li class=\"splide__slide product\">\n    <div class=\"product-card\">\n     <div class=\"product-thumb\">\n      <img alt="
+          },
+          {
+            "selector": "[data-slider-carousel-id]",
+            "text": "Innovative, wireless home speaker Discover Innovative, wireless home speaker Discover",
+            "html_snippet": "<div \\\"&quot;,&quot;customarrows&quot;:false,&quot;pagination&quot;:true}\"=\"\" class=\"splide rey-bSlider --source-custom slider-623d84be78fe3 rey-sliderComp-nav --pause-hover splide--slide\" data-c-anim=\"top\" data-carousel-settings='{\"direction\":\"ltr\",\"infinite\":true,\"autoplay\":true,\"interval\":10000,\"pause_on_hover\":true,\"transition\":\"slide\",\"speed\":500,\"uniqueID\":\"slider-623d84be78fe3\",\"targetSync\":\"\\' data-slider-carousel-id=\"slider-623d84be78fe3\">\n <div class=\"splide__track\">\n  <div class=\"splide__list __slides\">\n   <a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n    <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n    <div class=\"__caption\">\n     <h2 class=\"__captionEl __title\">\n      Innovative, wirele"
+          },
+          {
+            "selector": "[data-slider-carousel-id]",
+            "text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"product splide__slide\">\n  <div class=\"rey-productInner\">\n   <div class=\"rey-productThumbnail\">\n    <a class=\"woocommerce-loop-product__link\" href=\"#\">\n     <img alt=\"Innovative smart watch\" src=\"/assets/images/sample-1.svg\"/>\n    </a>\n   </div>\n   <div class=\"rey-productMeta\">\n    <div class=\"rey-brandLink --catalog\">\n     <a href=\"#\">\n      X-Form\n     </a>\n    </div>\n    <h2 class=\"woocommerce-loop-product__title\">\n     <a href=\"#\">\n      Innovative smart watch\n     </a>\n    </h2>\n    <div class=\"__break\">\n    </div>\n    <span class=\"price rey-loopPrice\">\n     <span class=\"woocommerce-Price-amount amount\">\n      <bdi>\n       $399\n      </bdi>\n     </span>\n    </span>\n   </div>\n  </div>\n </li>\n <li class=\"product splide__slide\">\n"
+          }
+        ]
+      }
+    },
+    "hero_slides": {
+      "label": "Hero slides",
+      "source": {
+        ".splide__slide": {
+          "count": 27,
+          "sample_text": "FREE WORLDWIDE SHIPPING OVER $100",
+          "sample_html": "<div class=\"splide__slide rey-textScroller-item\">\n <span>\n  <p>\n   FREE WORLDWIDE SHIPPING OVER $100\n  </p>\n </span>\n</div>\n"
+        },
+        "a.splide__slide": {
+          "count": 2,
+          "sample_text": "Innovative, wireless home speaker Discover",
+          "sample_html": "<a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-300x245.jpg 300w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-768x627.jpg 768w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-330x270.jpg 330w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-600x490.jpg 600w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56.jpg 1200w\" width=\"1024\"/>\n <div class=\"__caption\">\n  <"
+        },
+        "li.splide__slide": {
+          "count": 18,
+          "sample_text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+          "sample_html": "<li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n <div class=\"rey-productInner --box-styler\">\n  <div class=\"rey-productThumbnail\">\n   <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n    <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes=\"(max-width: 330px) 100vw, 330px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/67-330x361.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/67-330x361.jpg 330w, https://demos."
+        },
+        "samples": [
+          {
+            "selector": ".splide__slide",
+            "text": "FREE WORLDWIDE SHIPPING OVER $100",
+            "html_snippet": "<div class=\"splide__slide rey-textScroller-item\">\n <span>\n  <p>\n   FREE WORLDWIDE SHIPPING OVER $100\n  </p>\n </span>\n</div>\n"
+          },
+          {
+            "selector": ".splide__slide",
+            "text": "LAST CALL: LOWEST PRICE GUARANTEE 50% OFF. EXPLORE",
+            "html_snippet": "<div class=\"splide__slide rey-textScroller-item\" data-lazy-hidden=\"\">\n <span>\n  <p>\n   LAST CALL: LOWEST PRICE GUARANTEE 50% OFF.\n   <a href=\"#\">\n    EXPLORE\n   </a>\n  </p>\n </span>\n</div>\n"
+          },
+          {
+            "selector": ".splide__slide",
+            "text": "Innovative, wireless home speaker Discover",
+            "html_snippet": "<a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-300x245.jpg 300w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-768x627.jpg 768w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-330x270.jpg 330w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-600x490.jpg 600w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56.jpg 1200w\" width=\"1024\"/>\n <div class=\"__caption\">\n  <"
+          },
+          {
+            "selector": "a.splide__slide",
+            "text": "Innovative, wireless home speaker Discover",
+            "html_snippet": "<a class=\"splide__slide __slide elementor-repeater-item-a538392\" href=\"#\">\n <img alt=\"\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg 1024w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-300x245.jpg 300w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-768x627.jpg 768w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-330x270.jpg 330w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-600x490.jpg 600w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56.jpg 1200w\" width=\"1024\"/>\n <div class=\"__caption\">\n  <"
+          },
+          {
+            "selector": "a.splide__slide",
+            "text": "Outstanding performance EXPLORE",
+            "html_snippet": "<a class=\"splide__slide __slide elementor-repeater-item-d766825\" href=\"#\">\n <img alt=\"\" class=\"__media\" decoding=\"async\" height=\"1024\" sizes=\"(max-width: 936px) 100vw, 936px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2-936x1024.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2-936x1024.jpg 936w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2-274x300.jpg 274w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2-768x840.jpg 768w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2-330x361.jpg 330w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2-600x656.jpg 600w, https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/2.jpg 1024w\" width=\"936\"/>\n <div class=\"__caption\">\n  <h2 class=\"__captionEl __title\">\n   Outstanding\n   <br/>\n   performance\n  </h2>\n  <div class=\"__captio"
+          },
+          {
+            "selector": "li.splide__slide",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n <div class=\"rey-productInner --box-styler\">\n  <div class=\"rey-productThumbnail\">\n   <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n    <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes=\"(max-width: 330px) 100vw, 330px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/67-330x361.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/67-330x361.jpg 330w, https://demos."
+          },
+          {
+            "selector": "li.splide__slide",
+            "text": "Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-989 status-publish instock product_cat-bluetooth product_cat-portable product_cat-speakers has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"989\">\n <div class=\"rey-productInner --box-styler\">\n  <div class=\"rey-productThumbnail\">\n   <a aria-label=\"Powerful Bluetooth speaker\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/powerful-bluetooth-speaker/\">\n    <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes=\"(max-width: 330px) 100vw, 330px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/56-330x361.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/56-330x361.jpg 330"
+          },
+          {
+            "selector": "li.splide__slide",
+            "text": "Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-998 status-publish instock product_cat-bluetooth product_cat-portable product_cat-speakers has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"998\">\n <div class=\"rey-productInner --box-styler\">\n  <div class=\"rey-productThumbnail\">\n   <a aria-label=\"High-end wireless subwoofer\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/high-end-wireless-subwoofer/\">\n    <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes=\"(max-width: 330px) 100vw, 330px\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/63-330x361.jpg\" srcset=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/05/63-330x361.jpg 3"
+          }
+        ]
+      },
+      "server": {
+        ".splide__slide": {
+          "count": 32,
+          "sample_text": "FREE WORLDWIDE SHIPPING OVER $100",
+          "sample_html": "<div class=\"splide__slide rey-textScroller-item\" role=\"option\">\n <span>\n  <p>\n   FREE WORLDWIDE SHIPPING OVER $100\n  </p>\n </span>\n</div>\n"
+        },
+        "a.splide__slide": {
+          "count": 4,
+          "sample_text": "Innovative, wireless home speaker Discover",
+          "sample_html": "<a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n <div class=\"__caption\">\n  <h2 class=\"__captionEl __title\">\n   Innovative, wireless home speaker\n  </h2>\n  <div class=\"__captionEl __button btn btn-dash-line\">\n   Discover\n  </div>\n </div>\n</a>\n"
+        },
+        "li.splide__slide": {
+          "count": 26,
+          "sample_text": "Minimal Leather Wallet $39 View",
+          "sample_html": "<li class=\"splide__slide product\">\n <div class=\"product-card\">\n  <div class=\"product-thumb\">\n   <img alt=\"Minimal Leather Wallet\" src=\"/assets/images/sample-1.svg\"/>\n  </div>\n  <div class=\"product-meta\">\n   <h4 class=\"product-title\">\n    Minimal Leather Wallet\n   </h4>\n   <div class=\"product-price\">\n    $39\n   </div>\n   <a aria-label=\"View Minimal Leather Wallet\" class=\"btn\" href=\"#\" role=\"button\">\n    View\n   </a>\n  </div>\n </div>\n</li>\n"
+        },
+        "samples": [
+          {
+            "selector": ".splide__slide",
+            "text": "FREE WORLDWIDE SHIPPING OVER $100",
+            "html_snippet": "<div class=\"splide__slide rey-textScroller-item\" role=\"option\">\n <span>\n  <p>\n   FREE WORLDWIDE SHIPPING OVER $100\n  </p>\n </span>\n</div>\n"
+          },
+          {
+            "selector": ".splide__slide",
+            "text": "LAST CALL: LOWEST PRICE GUARANTEE 50% OFF. EXPLORE",
+            "html_snippet": "<div class=\"splide__slide rey-textScroller-item\" data-lazy-hidden=\"\" role=\"option\">\n <span>\n  <p>\n   LAST CALL: LOWEST PRICE GUARANTEE 50% OFF.\n   <a href=\"#\">\n    EXPLORE\n   </a>\n  </p>\n </span>\n</div>\n"
+          },
+          {
+            "selector": ".splide__slide",
+            "text": "Innovative, wireless home speaker Discover",
+            "html_snippet": "<a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n <div class=\"__caption\">\n  <h2 class=\"__captionEl __title\">\n   Innovative, wireless home speaker\n  </h2>\n  <div class=\"__captionEl __button btn btn-dash-line\">\n   Discover\n  </div>\n </div>\n</a>\n"
+          },
+          {
+            "selector": "a.splide__slide",
+            "text": "Innovative, wireless home speaker Discover",
+            "html_snippet": "<a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n <div class=\"__caption\">\n  <h2 class=\"__captionEl __title\">\n   Innovative, wireless home speaker\n  </h2>\n  <div class=\"__captionEl __button btn btn-dash-line\">\n   Discover\n  </div>\n </div>\n</a>\n"
+          },
+          {
+            "selector": "a.splide__slide",
+            "text": "Innovative, wireless home speaker Discover",
+            "html_snippet": "<a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--outstanding\" href=\"#\" role=\"link\">\n <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n <div class=\"__caption\">\n  <h2 class=\"__captionEl __title\">\n   Innovative, wireless home speaker\n  </h2>\n  <div class=\"__captionEl __button btn btn-dash-line\">\n   Discover\n  </div>\n </div>\n</a>\n"
+          },
+          {
+            "selector": "a.splide__slide",
+            "text": "Innovative, wireless home speaker Discover",
+            "html_snippet": "<a aria-label=\"Innovative, wireless home speaker — Discover\" class=\"splide__slide __slide hero-slide hero-slide--innovative\" href=\"#\" role=\"link\">\n <img alt=\"Innovative, wireless home speaker\" class=\"__media\" decoding=\"async\" fetchpriority=\"high\" height=\"836\" src=\"https://demos.reytheme.com/san-francisco/wp-content/uploads/sites/24/2022/02/Rectangle-56-1024x836.jpg\" width=\"1024\"/>\n <div class=\"__caption\">\n  <h2 class=\"__captionEl __title\">\n   Innovative, wireless home speaker\n  </h2>\n  <div class=\"__captionEl __button btn btn-dash-line\">\n   Discover\n  </div>\n </div>\n</a>\n"
+          },
+          {
+            "selector": "li.splide__slide",
+            "text": "Minimal Leather Wallet $39 View",
+            "html_snippet": "<li class=\"splide__slide product\">\n <div class=\"product-card\">\n  <div class=\"product-thumb\">\n   <img alt=\"Minimal Leather Wallet\" src=\"/assets/images/sample-1.svg\"/>\n  </div>\n  <div class=\"product-meta\">\n   <h4 class=\"product-title\">\n    Minimal Leather Wallet\n   </h4>\n   <div class=\"product-price\">\n    $39\n   </div>\n   <a aria-label=\"View Minimal Leather Wallet\" class=\"btn\" href=\"#\" role=\"button\">\n    View\n   </a>\n  </div>\n </div>\n</li>\n"
+          },
+          {
+            "selector": "li.splide__slide",
+            "text": "Canvas Tote Bag $49 View",
+            "html_snippet": "<li class=\"splide__slide product\">\n <div class=\"product-card\">\n  <div class=\"product-thumb\">\n   <img alt=\"Canvas Tote Bag\" src=\"/assets/images/sample-2.svg\"/>\n  </div>\n  <div class=\"product-meta\">\n   <h4 class=\"product-title\">\n    Canvas Tote Bag\n   </h4>\n   <div class=\"product-price\">\n    $49\n   </div>\n   <a aria-label=\"View Canvas Tote Bag\" class=\"btn\" href=\"#\" role=\"button\">\n    View\n   </a>\n  </div>\n </div>\n</li>\n"
+          },
+          {
+            "selector": "li.splide__slide",
+            "text": "Classic Sunglasses $79 View",
+            "html_snippet": "<li class=\"splide__slide product\">\n <div class=\"product-card\">\n  <div class=\"product-thumb\">\n   <img alt=\"Classic Sunglasses\" src=\"/assets/images/sample-3.svg\"/>\n  </div>\n  <div class=\"product-meta\">\n   <h4 class=\"product-title\">\n    Classic Sunglasses\n   </h4>\n   <div class=\"product-price\">\n    $79\n   </div>\n   <a aria-label=\"View Classic Sunglasses\" class=\"btn\" href=\"#\" role=\"button\">\n    View\n   </a>\n  </div>\n </div>\n</li>\n"
+          }
+        ]
+      }
+    },
+    "promo_apple_watch": {
+      "label": "Promo: Apple watch",
+      "source": {
+        ".promo-apple-watch": {
+          "count": 0,
+          "sample_text": "",
+          "sample_html": ""
+        },
+        ".elementor-column .elementor-heading-title": {
+          "count": 32,
+          "sample_text": "CATEGORIES",
+          "sample_html": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+        },
+        "samples": [
+          {
+            "selector": ".elementor-column .elementor-heading-title",
+            "text": "CATEGORIES",
+            "html_snippet": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+          },
+          {
+            "selector": ".elementor-column .elementor-heading-title",
+            "text": "Complete your setup",
+            "html_snippet": "<h3 class=\"elementor-heading-title elementor-size-default\">\n Complete your setup\n</h3>\n"
+          },
+          {
+            "selector": ".elementor-column .elementor-heading-title",
+            "text": "SITE",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SITE\n</h5>\n"
+          }
+        ]
+      },
+      "server": {
+        ".promo-apple-watch": {
+          "count": 1,
+          "sample_text": "Apple watch 8 series The future of health is on your wrist",
+          "sample_html": "<div class=\"promo-apple-watch elementor-column rey-lazyBg\">\n <div class=\"elementor-column-wrap elementor-widget-wrap elementor-element-populated\">\n  <div class=\"elementor-element elementor-widget elementor-widget-heading\">\n   <div class=\"elementor-widget-container\">\n    <h6 class=\"elementor-heading-title elementor-size-default\">\n     Apple watch 8 series\n    </h6>\n   </div>\n  </div>\n  <div class=\"elementor-element elementor-widget elementor-widget-heading\">\n   <div class=\"elementor-widget-container\">\n    <h3 class=\"elementor-heading-title elementor-size-default\">\n     The future of health is on your wrist\n    </h3>\n   </div>\n  </div>\n </div>\n</div>\n"
+        },
+        ".elementor-column .elementor-heading-title": {
+          "count": 8,
+          "sample_text": "CATEGORIES",
+          "sample_html": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+        },
+        "samples": [
+          {
+            "selector": ".promo-apple-watch",
+            "text": "Apple watch 8 series The future of health is on your wrist",
+            "html_snippet": "<div class=\"promo-apple-watch elementor-column rey-lazyBg\">\n <div class=\"elementor-column-wrap elementor-widget-wrap elementor-element-populated\">\n  <div class=\"elementor-element elementor-widget elementor-widget-heading\">\n   <div class=\"elementor-widget-container\">\n    <h6 class=\"elementor-heading-title elementor-size-default\">\n     Apple watch 8 series\n    </h6>\n   </div>\n  </div>\n  <div class=\"elementor-element elementor-widget elementor-widget-heading\">\n   <div class=\"elementor-widget-container\">\n    <h3 class=\"elementor-heading-title elementor-size-default\">\n     The future of health is on your wrist\n    </h3>\n   </div>\n  </div>\n </div>\n</div>\n"
+          },
+          {
+            "selector": ".elementor-column .elementor-heading-title",
+            "text": "CATEGORIES",
+            "html_snippet": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+          },
+          {
+            "selector": ".elementor-column .elementor-heading-title",
+            "text": "SITE",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SITE\n</h5>\n"
+          },
+          {
+            "selector": ".elementor-column .elementor-heading-title",
+            "text": "SHOP",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SHOP\n</h5>\n"
+          }
+        ]
+      },
+      "text_matches": {
+        "Apple watch 8 series": {
+          "source_count": 1,
+          "server_count": 2
+        },
+        "The future of health is on your wrist": {
+          "source_count": 2,
+          "server_count": 3
+        }
+      }
+    },
+    "product_grids": {
+      "label": "Product grids",
+      "source": {
+        ".reyEl-productGrid": {
+          "count": 3,
+          "sample_text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+          "sample_html": "<div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayInit\":\"\",\"customArrows\":\".__arrows-3c5a705\",\"free_drag\":[],\"side_offset\":\"\"}' data-qt=\"recent\">\n <div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n  <div class=\"splide__track\">\n   <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --p"
+        },
+        ".woocommerce .products": {
+          "count": 3,
+          "sample_text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+          "sample_html": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n     <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes"
+        },
+        ".products": {
+          "count": 3,
+          "sample_text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+          "sample_html": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n     <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes"
+        },
+        ".pg-skin-proto": {
+          "count": 3,
+          "sample_text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+          "sample_html": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+        },
+        ".elementor-widget-reycore-product-grid": {
+          "count": 3,
+          "sample_text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+          "sample_html": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+        },
+        "samples": [
+          {
+            "selector": ".reyEl-productGrid",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayInit\":\"\",\"customArrows\":\".__arrows-3c5a705\",\"free_drag\":[],\"side_offset\":\"\"}' data-qt=\"recent\">\n <div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n  <div class=\"splide__track\">\n   <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --p"
+          },
+          {
+            "selector": ".reyEl-productGrid",
+            "text": "Save $130.00 Ends in 4 minutes Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in 4 minutes Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 Ends in 4 minutes SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in +1 day Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Ends in +2 days Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayInit\":\"\",\"customArrows\":\".__arrows-e9fd2f2\",\"free_drag\":[],\"side_offset\":\"\"}' data-qt=\"sale\">\n <div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n  <div class=\"splide__track\">\n   <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent"
+          },
+          {
+            "selector": ".reyEl-productGrid",
+            "text": "Save $130.00 Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":4,\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayInit\":\"\",\"customArrows\":\".__arrows-2c7ebe0\",\"free_drag\":[],\"side_offset\":\"\"}' data-qt=\"sale\">\n <div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n  <div class=\"splide__track\">\n   <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-m"
+          },
+          {
+            "selector": ".woocommerce .products",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n     <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes"
+          },
+          {
+            "selector": ".woocommerce .products",
+            "text": "Save $130.00 Ends in 4 minutes Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in 4 minutes Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 Ends in 4 minutes SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in +1 day Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Ends in +2 days Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-125 status-publish first instock product_cat-bluetooth product_cat-home-audio product_cat-portable product_cat-sets product_cat-speakers product_tag-bluetooth product_tag-speaker has-post-thumbnail sale shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"125\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Powerful multiroom speaker\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/powerful-"
+          },
+          {
+            "selector": ".woocommerce .products",
+            "text": "Save $130.00 Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-125 status-publish first instock product_cat-bluetooth product_cat-home-audio product_cat-portable product_cat-sets product_cat-speakers product_tag-bluetooth product_tag-speaker has-post-thumbnail sale shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"125\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Powerful multiroom speaker\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/powerful-"
+          },
+          {
+            "selector": ".products",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-1004 status-publish first instock product_cat-smartwatches product_cat-wearables has-post-thumbnail shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"1004\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Innovative smart watch\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n     <img alt=\"\" class=\"rey-productThumbnail__second\" decoding=\"async\" height=\"361\" sizes"
+          },
+          {
+            "selector": ".products",
+            "text": "Save $130.00 Ends in 4 minutes Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in 4 minutes Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 Ends in 4 minutes SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in +1 day Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Ends in +2 days Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-125 status-publish first instock product_cat-bluetooth product_cat-home-audio product_cat-portable product_cat-sets product_cat-speakers product_tag-bluetooth product_tag-speaker has-post-thumbnail sale shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"125\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Powerful multiroom speaker\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/powerful-"
+          },
+          {
+            "selector": ".products",
+            "text": "Save $130.00 Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"rey-swatches rey-swatches--stretch-labels product type-product post-125 status-publish first instock product_cat-bluetooth product_cat-home-audio product_cat-portable product_cat-sets product_cat-speakers product_tag-bluetooth product_tag-speaker has-post-thumbnail sale shipping-taxable purchasable product-type-variable is-animated --shadow- --shadow-h-1 --extraImg-second --extraImg-mobile rey-wc-skin--proto rey-wc-loopAlign-left --uncropped splide__slide\" data-pid=\"125\">\n  <div class=\"rey-productInner --box-styler\">\n   <div class=\"rey-productThumbnail\">\n    <a aria-label=\"Powerful multiroom speaker\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\" href=\"https://demos.reytheme.com/san-francisco/product/powerful-"
+          },
+          {
+            "selector": ".pg-skin-proto",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+          },
+          {
+            "selector": ".pg-skin-proto",
+            "text": "Save $130.00 Ends in 4 minutes Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in 4 minutes Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 Ends in 4 minutes SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in +1 day Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Ends in +2 days Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-e9fd2f2 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"e9fd2f2\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayI"
+          },
+          {
+            "selector": ".pg-skin-proto",
+            "text": "Save $130.00 Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-2c7ebe0 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"2c7ebe0\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":4,\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayIni"
+          },
+          {
+            "selector": ".elementor-widget-reycore-product-grid",
+            "text": "Choose an option Black Brown Red X-Form Innovative smart watch $ 399.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Powerful Bluetooth speaker $ 549.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Grey SquareX High-end wireless subwoofer $ 1,989.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Black Red Quantech Comfortable over-ear headphones $ 689.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech Pocket camera $ 199.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Brown Grey 1+ Quantech Ultimate over-ear headphones $ 789.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Beige Grey Red Quantech Innovative wireless home speaker $ 1,299.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Choose an option Black Grey Quantech MagSafe Charger $ 159.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+          },
+          {
+            "selector": ".elementor-widget-reycore-product-grid",
+            "text": "Save $130.00 Ends in 4 minutes Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in 4 minutes Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 Ends in 4 minutes SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Ends in +1 day Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Ends in +2 days Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-e9fd2f2 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"e9fd2f2\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayI"
+          },
+          {
+            "selector": ".elementor-widget-reycore-product-grid",
+            "text": "Save $130.00 Choose an option Black Brown Grey SquareX Powerful multiroom speaker $ 899.00 Original price was: $899.00. $ 769.00 Current price is: $769.00. Save $130.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Quantech Mirrorless camera lens $ 489.00 Original price was: $489.00. $ 329.00 Current price is: $329.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $20.00 SquareX Tiny action camera $ 289.00 Original price was: $289.00. $ 269.00 Current price is: $269.00. Save $20.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $160.00 Choose an option Beige Grey Red SquareX Advanced Health Smartwatch $ 549.00 Original price was: $549.00. $ 389.00 Current price is: $389.00. Save $160.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW Save $40.00 Choose an option Black Red Quantech Adaptive wireless earbuds $ 189.00 Original price was: $189.00. $ 149.00 Current price is: $149.00. Save $40.00 Select options This product has multiple variants. The options may be chosen on the product page QUICKVIEW",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-2c7ebe0 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"2c7ebe0\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":4,\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayIni"
+          }
+        ]
+      },
+      "server": {
+        ".reyEl-productGrid": {
+          "count": 1,
+          "sample_text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+          "sample_html": "<div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayInit\":\"\",\"customArrows\":\".__arrows-3c5a705\",\"free_drag\":[],\"side_offset\":\"\"}' data-qt=\"recent\">\n <div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n  <div class=\"splide__track\">\n   <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --p"
+        },
+        ".woocommerce .products": {
+          "count": 1,
+          "sample_text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+          "sample_html": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"product splide__slide\">\n  <div class=\"rey-productInner\">\n   <div class=\"rey-productThumbnail\">\n    <a class=\"woocommerce-loop-product__link\" href=\"#\">\n     <img alt=\"Innovative smart watch\" src=\"/assets/images/sample-1.svg\"/>\n    </a>\n   </div>\n   <div class=\"rey-productMeta\">\n    <div class=\"rey-brandLink --catalog\">\n     <a href=\"#\">\n      X-Form\n     </a>\n    </div>\n    <h2 class=\"woocommerce-loop-product__title\">\n     <a href=\"#\">\n      Innovative smart watch\n     </a>\n    </h2>\n    <div class=\"__break\">\n    </div>\n    <span class=\"price rey-loopPrice\">\n     <span class=\"woocommerce-Price-amount amount\">\n      <bdi>\n       $399\n      </bdi>\n     </span>\n    </span>\n   </div>\n  </div>\n </li>\n <li class=\"product splide__slide\">\n"
+        },
+        ".products": {
+          "count": 1,
+          "sample_text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+          "sample_html": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"product splide__slide\">\n  <div class=\"rey-productInner\">\n   <div class=\"rey-productThumbnail\">\n    <a class=\"woocommerce-loop-product__link\" href=\"#\">\n     <img alt=\"Innovative smart watch\" src=\"/assets/images/sample-1.svg\"/>\n    </a>\n   </div>\n   <div class=\"rey-productMeta\">\n    <div class=\"rey-brandLink --catalog\">\n     <a href=\"#\">\n      X-Form\n     </a>\n    </div>\n    <h2 class=\"woocommerce-loop-product__title\">\n     <a href=\"#\">\n      Innovative smart watch\n     </a>\n    </h2>\n    <div class=\"__break\">\n    </div>\n    <span class=\"price rey-loopPrice\">\n     <span class=\"woocommerce-Price-amount amount\">\n      <bdi>\n       $399\n      </bdi>\n     </span>\n    </span>\n   </div>\n  </div>\n </li>\n <li class=\"product splide__slide\">\n"
+        },
+        ".pg-skin-proto": {
+          "count": 1,
+          "sample_text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+          "sample_html": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+        },
+        ".elementor-widget-reycore-product-grid": {
+          "count": 1,
+          "sample_text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+          "sample_html": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+        },
+        "samples": [
+          {
+            "selector": ".reyEl-productGrid",
+            "text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+            "html_snippet": "<div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"delayInit\":\"\",\"customArrows\":\".__arrows-3c5a705\",\"free_drag\":[],\"side_offset\":\"\"}' data-qt=\"recent\">\n <div class=\"splide reyEl-productGrid-splide carousel-6238a381cedc0\" data-skin=\"proto\">\n  <div class=\"splide__track\">\n   <ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --p"
+          },
+          {
+            "selector": ".woocommerce .products",
+            "text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"product splide__slide\">\n  <div class=\"rey-productInner\">\n   <div class=\"rey-productThumbnail\">\n    <a class=\"woocommerce-loop-product__link\" href=\"#\">\n     <img alt=\"Innovative smart watch\" src=\"/assets/images/sample-1.svg\"/>\n    </a>\n   </div>\n   <div class=\"rey-productMeta\">\n    <div class=\"rey-brandLink --catalog\">\n     <a href=\"#\">\n      X-Form\n     </a>\n    </div>\n    <h2 class=\"woocommerce-loop-product__title\">\n     <a href=\"#\">\n      Innovative smart watch\n     </a>\n    </h2>\n    <div class=\"__break\">\n    </div>\n    <span class=\"price rey-loopPrice\">\n     <span class=\"woocommerce-Price-amount amount\">\n      <bdi>\n       $399\n      </bdi>\n     </span>\n    </span>\n   </div>\n  </div>\n </li>\n <li class=\"product splide__slide\">\n"
+          },
+          {
+            "selector": ".products",
+            "text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+            "html_snippet": "<ul class=\"products --prevent-thumbnail-sliders --prevent-scattered --prevent-masonry splide__list rey-wcGap-default rey-wcGrid-default --skin-proto\" data-discount-mobile-top=\"yes\" data-params=\"[]\" data-slider-carousel-id=\"carousel-6238a381cedc0\">\n <li class=\"product splide__slide\">\n  <div class=\"rey-productInner\">\n   <div class=\"rey-productThumbnail\">\n    <a class=\"woocommerce-loop-product__link\" href=\"#\">\n     <img alt=\"Innovative smart watch\" src=\"/assets/images/sample-1.svg\"/>\n    </a>\n   </div>\n   <div class=\"rey-productMeta\">\n    <div class=\"rey-brandLink --catalog\">\n     <a href=\"#\">\n      X-Form\n     </a>\n    </div>\n    <h2 class=\"woocommerce-loop-product__title\">\n     <a href=\"#\">\n      Innovative smart watch\n     </a>\n    </h2>\n    <div class=\"__break\">\n    </div>\n    <span class=\"price rey-loopPrice\">\n     <span class=\"woocommerce-Price-amount amount\">\n      <bdi>\n       $399\n      </bdi>\n     </span>\n    </span>\n   </div>\n  </div>\n </li>\n <li class=\"product splide__slide\">\n"
+          },
+          {
+            "selector": ".pg-skin-proto",
+            "text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+          },
+          {
+            "selector": ".elementor-widget-reycore-product-grid",
+            "text": "X-Form Innovative smart watch $399 Quantech Powerful Bluetooth speaker $549 SquareX High-end wireless subwoofer $1,989 Quantech Comfortable over-ear headphones $689 Quantech Pocket camera $199 Quantech Ultimate over-ear headphones $789",
+            "html_snippet": "<div class=\"pg-skin-proto elementor-element elementor-element-3c5a705 --carousel-navPos-outside elementor-widget elementor-widget-reycore-product-grid\" data-element_type=\"widget\" data-id=\"3c5a705\" data-widget_type=\"reycore-product-grid.carousel\">\n <div class=\"elementor-widget-container\">\n  <div class=\"woocommerce rey-element reyEl-productGrid reyEl-productGrid--has-thumbs reyEl-productGrid--skin-carousel\" data-carousel-settings='{\"type\":\"slide\",\"slides_to_show\":\"4\",\"slides_to_show_tablet\":3,\"slides_to_show_mobile\":2,\"slides_to_move\":false,\"autoplay\":false,\"autoplaySpeed\":null,\"pause_on_hover\":\"yes\",\"infinite\":true,\"infinite_tablet\":false,\"infinite_mobile\":false,\"speed\":500,\"direction\":\"ltr\",\"carousel_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"carousel_padding_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"carousel_padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"60\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"de"
+          }
+        ]
+      }
+    },
+    "product_titles": {
+      "label": "Product titles",
+      "source": {
+        ".woocommerce-loop-product__title": {
+          "count": 18,
+          "sample_text": "Innovative smart watch",
+          "sample_html": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n  Innovative smart watch\n </a>\n</h2>\n"
+        },
+        "h2.woocommerce-loop-product__title": {
+          "count": 18,
+          "sample_text": "Innovative smart watch",
+          "sample_html": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n  Innovative smart watch\n </a>\n</h2>\n"
+        },
+        "h2 a.woocommerce-LoopProduct-link": {
+          "count": 0,
+          "sample_text": "",
+          "sample_html": ""
+        },
+        "samples": [
+          {
+            "selector": ".woocommerce-loop-product__title",
+            "text": "Innovative smart watch",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n  Innovative smart watch\n </a>\n</h2>\n"
+          },
+          {
+            "selector": ".woocommerce-loop-product__title",
+            "text": "Powerful Bluetooth speaker",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/powerful-bluetooth-speaker/\">\n  Powerful Bluetooth speaker\n </a>\n</h2>\n"
+          },
+          {
+            "selector": ".woocommerce-loop-product__title",
+            "text": "High-end wireless subwoofer",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/high-end-wireless-subwoofer/\">\n  High-end wireless subwoofer\n </a>\n</h2>\n"
+          },
+          {
+            "selector": "h2.woocommerce-loop-product__title",
+            "text": "Innovative smart watch",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/innovative-smart-watch/\">\n  Innovative smart watch\n </a>\n</h2>\n"
+          },
+          {
+            "selector": "h2.woocommerce-loop-product__title",
+            "text": "Powerful Bluetooth speaker",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/powerful-bluetooth-speaker/\">\n  Powerful Bluetooth speaker\n </a>\n</h2>\n"
+          },
+          {
+            "selector": "h2.woocommerce-loop-product__title",
+            "text": "High-end wireless subwoofer",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"https://demos.reytheme.com/san-francisco/product/high-end-wireless-subwoofer/\">\n  High-end wireless subwoofer\n </a>\n</h2>\n"
+          }
+        ]
+      },
+      "server": {
+        ".woocommerce-loop-product__title": {
+          "count": 6,
+          "sample_text": "Innovative smart watch",
+          "sample_html": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  Innovative smart watch\n </a>\n</h2>\n"
+        },
+        "h2.woocommerce-loop-product__title": {
+          "count": 6,
+          "sample_text": "Innovative smart watch",
+          "sample_html": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  Innovative smart watch\n </a>\n</h2>\n"
+        },
+        "h2 a.woocommerce-LoopProduct-link": {
+          "count": 0,
+          "sample_text": "",
+          "sample_html": ""
+        },
+        "samples": [
+          {
+            "selector": ".woocommerce-loop-product__title",
+            "text": "Innovative smart watch",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  Innovative smart watch\n </a>\n</h2>\n"
+          },
+          {
+            "selector": ".woocommerce-loop-product__title",
+            "text": "Powerful Bluetooth speaker",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  Powerful Bluetooth speaker\n </a>\n</h2>\n"
+          },
+          {
+            "selector": ".woocommerce-loop-product__title",
+            "text": "High-end wireless subwoofer",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  High-end wireless subwoofer\n </a>\n</h2>\n"
+          },
+          {
+            "selector": "h2.woocommerce-loop-product__title",
+            "text": "Innovative smart watch",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  Innovative smart watch\n </a>\n</h2>\n"
+          },
+          {
+            "selector": "h2.woocommerce-loop-product__title",
+            "text": "Powerful Bluetooth speaker",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  Powerful Bluetooth speaker\n </a>\n</h2>\n"
+          },
+          {
+            "selector": "h2.woocommerce-loop-product__title",
+            "text": "High-end wireless subwoofer",
+            "html_snippet": "<h2 class=\"woocommerce-loop-product__title\">\n <a href=\"#\">\n  High-end wireless subwoofer\n </a>\n</h2>\n"
+          }
+        ]
+      }
+    },
+    "newsletter_form": {
+      "label": "Newsletter form",
+      "source": {
+        "form#mc4wp-form-1": {
+          "count": 1,
+          "sample_text": "Leave this field empty if you're human:",
+          "sample_html": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-1\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770949\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-1\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+        },
+        "form.mc4wp-form": {
+          "count": 2,
+          "sample_text": "Leave this field empty if you're human:",
+          "sample_html": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-1\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770949\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-1\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+        },
+        "form[data-name]": {
+          "count": 2,
+          "sample_text": "Leave this field empty if you're human:",
+          "sample_html": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-1\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770949\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-1\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+        },
+        "samples": [
+          {
+            "selector": "form#mc4wp-form-1",
+            "text": "Leave this field empty if you're human:",
+            "html_snippet": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-1\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770949\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-1\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+          },
+          {
+            "selector": "form.mc4wp-form",
+            "text": "Leave this field empty if you're human:",
+            "html_snippet": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-1\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770949\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-1\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+          },
+          {
+            "selector": "form.mc4wp-form",
+            "text": "Leave this field empty if you're human:",
+            "html_snippet": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-2\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770950\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-2\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+          },
+          {
+            "selector": "form[data-name]",
+            "text": "Leave this field empty if you're human:",
+            "html_snippet": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-1\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770949\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-1\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+          },
+          {
+            "selector": "form[data-name]",
+            "text": "Leave this field empty if you're human:",
+            "html_snippet": "<form class=\"mc4wp-form mc4wp-form-212\" data-id=\"212\" data-name=\"Newsletter form\" id=\"mc4wp-form-2\" method=\"post\">\n <div class=\"mc4wp-form-fields\">\n  <p>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </p>\n  <p>\n   <input type=\"submit\" value=\"JOIN\"/>\n  </p>\n </div>\n <label style=\"display: none !important;\">\n  Leave this field empty if you're human:\n  <input autocomplete=\"off\" name=\"_mc4wp_honeypot\" tabindex=\"-1\" type=\"text\" value=\"\"/>\n </label>\n <input name=\"_mc4wp_timestamp\" type=\"hidden\" value=\"1756770950\"/>\n <input name=\"_mc4wp_form_id\" type=\"hidden\" value=\"212\"/>\n <input name=\"_mc4wp_form_element_id\" type=\"hidden\" value=\"mc4wp-form-2\"/>\n <div class=\"mc4wp-response\">\n </div>\n</form>\n"
+          }
+        ]
+      },
+      "server": {
+        "form#mc4wp-form-1": {
+          "count": 1,
+          "sample_text": "Email address",
+          "sample_html": "<form class=\"mc4wp-form\" data-id=\"1\" id=\"mc4wp-form-1\" method=\"post\">\n <p>\n  <label>\n   Email address\n   <br/>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </label>\n </p>\n <p>\n  <input type=\"submit\" value=\"Subscribe\"/>\n </p>\n</form>\n"
+        },
+        "form.mc4wp-form": {
+          "count": 1,
+          "sample_text": "Email address",
+          "sample_html": "<form class=\"mc4wp-form\" data-id=\"1\" id=\"mc4wp-form-1\" method=\"post\">\n <p>\n  <label>\n   Email address\n   <br/>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </label>\n </p>\n <p>\n  <input type=\"submit\" value=\"Subscribe\"/>\n </p>\n</form>\n"
+        },
+        "form[data-name]": {
+          "count": 0,
+          "sample_text": "",
+          "sample_html": ""
+        },
+        "samples": [
+          {
+            "selector": "form#mc4wp-form-1",
+            "text": "Email address",
+            "html_snippet": "<form class=\"mc4wp-form\" data-id=\"1\" id=\"mc4wp-form-1\" method=\"post\">\n <p>\n  <label>\n   Email address\n   <br/>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </label>\n </p>\n <p>\n  <input type=\"submit\" value=\"Subscribe\"/>\n </p>\n</form>\n"
+          },
+          {
+            "selector": "form.mc4wp-form",
+            "text": "Email address",
+            "html_snippet": "<form class=\"mc4wp-form\" data-id=\"1\" id=\"mc4wp-form-1\" method=\"post\">\n <p>\n  <label>\n   Email address\n   <br/>\n   <input name=\"EMAIL\" placeholder=\"Your email address\" required=\"\" type=\"email\"/>\n  </label>\n </p>\n <p>\n  <input type=\"submit\" value=\"Subscribe\"/>\n </p>\n</form>\n"
+          }
+        ]
+      },
+      "text_matches": {
+        "JOIN": {
+          "source_count": 0,
+          "server_count": 1
+        },
+        "newsletter": {
+          "source_count": 3,
+          "server_count": 2
+        }
+      }
+    },
+    "headings": {
+      "label": "Elementor headings",
+      "source": {
+        ".elementor-heading-title": {
+          "count": 32,
+          "sample_text": "CATEGORIES",
+          "sample_html": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+        },
+        ".elementor-widget-heading .elementor-heading-title": {
+          "count": 32,
+          "sample_text": "CATEGORIES",
+          "sample_html": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+        },
+        "samples": [
+          {
+            "selector": ".elementor-heading-title",
+            "text": "CATEGORIES",
+            "html_snippet": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+          },
+          {
+            "selector": ".elementor-heading-title",
+            "text": "Complete your setup",
+            "html_snippet": "<h3 class=\"elementor-heading-title elementor-size-default\">\n Complete your setup\n</h3>\n"
+          },
+          {
+            "selector": ".elementor-heading-title",
+            "text": "SITE",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SITE\n</h5>\n"
+          },
+          {
+            "selector": ".elementor-widget-heading .elementor-heading-title",
+            "text": "CATEGORIES",
+            "html_snippet": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+          },
+          {
+            "selector": ".elementor-widget-heading .elementor-heading-title",
+            "text": "Complete your setup",
+            "html_snippet": "<h3 class=\"elementor-heading-title elementor-size-default\">\n Complete your setup\n</h3>\n"
+          },
+          {
+            "selector": ".elementor-widget-heading .elementor-heading-title",
+            "text": "SITE",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SITE\n</h5>\n"
+          }
+        ]
+      },
+      "server": {
+        ".elementor-heading-title": {
+          "count": 8,
+          "sample_text": "CATEGORIES",
+          "sample_html": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+        },
+        ".elementor-widget-heading .elementor-heading-title": {
+          "count": 8,
+          "sample_text": "CATEGORIES",
+          "sample_html": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+        },
+        "samples": [
+          {
+            "selector": ".elementor-heading-title",
+            "text": "CATEGORIES",
+            "html_snippet": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+          },
+          {
+            "selector": ".elementor-heading-title",
+            "text": "SITE",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SITE\n</h5>\n"
+          },
+          {
+            "selector": ".elementor-heading-title",
+            "text": "SHOP",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SHOP\n</h5>\n"
+          },
+          {
+            "selector": ".elementor-widget-heading .elementor-heading-title",
+            "text": "CATEGORIES",
+            "html_snippet": "<div class=\"elementor-heading-title elementor-size-default\">\n CATEGORIES\n</div>\n"
+          },
+          {
+            "selector": ".elementor-widget-heading .elementor-heading-title",
+            "text": "SITE",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SITE\n</h5>\n"
+          },
+          {
+            "selector": ".elementor-widget-heading .elementor-heading-title",
+            "text": "SHOP",
+            "html_snippet": "<h5 class=\"elementor-heading-title elementor-size-default\">\n SHOP\n</h5>\n"
+          }
+        ]
+      }
+    }
+  }
+}

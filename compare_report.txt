@@ -1,0 +1,71 @@
+Comparison report generated: Tue Sep  2 05:37:22 UTC 2025
+---
+MARKER: Innovative, wireless home speaker
+in source: 1
+in server: 13
+---
+MARKER: Outstanding performance
+in source: 0
+0
+in server: 4
+---
+MARKER: Rectangle-56
+in source: 3
+in server: 4
+---
+MARKER: Apple watch 8 series
+in source: 1
+in server: 2
+---
+MARKER: The future of health is on your wrist
+in source: 2
+in server: 3
+---
+MARKER: promo-apple-watch
+in source: 0
+0
+in server: 1
+---
+MARKER: splide__slide
+in source: 22
+in server: 26
+---
+MARKER: reyEl-productGrid
+in source: 9
+in server: 3
+---
+MARKER: Innovative smart watch
+in source: 3
+in server: 0
+0
+---
+MARKER: Powerful Bluetooth speaker
+in source: 3
+in server: 0
+0
+---
+MARKER: mc4wp-form-1
+in source: 2
+in server: 1
+---
+MARKER: newsletter
+in source: 7
+in server: 7
+---
+MARKER: <form id="mc4wp-form-1"
+in source: 1
+in server: 1
+---
+MARKER: __captionEl __title
+in source: 1
+in server: 0
+0
+---
+MARKER: elementor-heading-title elementor-size-default
+in source: 32
+in server: 8
+---
+Totals:
+splide__slide in source: 22
+splide__slide in server: 26
+done
