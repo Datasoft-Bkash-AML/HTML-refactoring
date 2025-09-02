@@ -1,34 +1,94 @@
 /* Centralized stylesheet for php-project */
-/* Minimal styles to preserve look of extracted hero and basic layout */
-:root{--brand:#32373c;--muted:#555}
+/* Design tokens and base layout to resemble the provided mock */
+:root{
+	--brand:#111114;
+	--accent:#d9a27f;
+	--muted:#777777;
+	--bg:#ffffff;
+	--surface:#fbfbfb;
+	--radius:10px;
+	--container:1200px;
+	--gap:24px;
+}
+
 html,body{height:100%}
-body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.4;color:#222;background:#fff;margin:0}
-.site-header{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;border-bottom:1px solid #eee;background:#fff;z-index:50}
-.site-branding a{color:var(--brand);text-decoration:none;font-weight:700}
-.hero{padding:40px 24px}
-.hero-inner{display:flex;gap:24px;align-items:center;max-width:1200px;margin:0 auto}
-.hero-media img{max-width:480px;height:auto;border-radius:6px;display:block}
-.hero-content h1{font-size:32px;margin:0 0 12px}
-.hero-content p{margin:0 0 16px;color:var(--muted)}
-.btn{display:inline-block;padding:10px 18px;background:var(--brand);color:#fff;border-radius:999px;text-decoration:none}
+body{
+	font-family: 'Poppins', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	line-height:1.45;color:var(--brand);background:var(--bg);margin:0;font-size:16px;
+	-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+}
 
-.site-footer{padding:24px;text-align:center;border-top:1px solid #eee;color:#666}
+/* Header */
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:18px var(--gap);border-bottom:1px solid #efefef;background:var(--bg);z-index:50}
+.site-branding a{color:var(--brand);text-decoration:none;font-weight:800;font-size:28px;letter-spacing:-0.02em}
 
+/* Page container */
+.container{max-width:var(--container);margin:0 auto;padding:0 var(--gap)}
+
+/* Top announcement bar above the header */
+.topbar{background:#111;color:#fff;padding:8px 0;font-size:13px}
+.topbar .container{display:flex;justify-content:center;align-items:center}
+.topbar a{color:#fff;text-decoration:underline;opacity:0.9}
+
+/* Main navigation tweaks */
+.rey-mainNavigation{display:flex;align-items:center;gap:18px}
+.rey-mainMenu--desktop{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+.rey-mainMenu--desktop li{display:block}
+.rey-mainMenu--desktop a{color:var(--brand);text-decoration:none;font-weight:600;padding:6px 4px}
+.rey-mainMenu--desktop a:hover{color:var(--accent)}
+
+/* Header layout: center nav, logo left, icons right */
+.rey-siteHeader .elementor-container{display:flex;align-items:center;justify-content:space-between}
+.rey-logoWrapper{flex:0 0 auto}
+.rey-mainNavigation{flex:1 1 60%;justify-content:center}
+.rey-header-icons{flex:0 0 auto;display:flex;gap:12px;align-items:center}
+.rey-headerIcon-btn{background:transparent;border:0;padding:8px;border-radius:6px;cursor:pointer}
+.rey-headerIcon-icon{display:inline-flex;width:22px;height:22px}
+
+/* Small helpers for logo size */
+.rey-siteLogo img{height:34px;width:auto;display:block}
+
+
+/* Hero layout similar to screenshot: large left hero + two stacked right panels */
+.hero{padding:36px 0}
+.hero-inner{display:grid;grid-template-columns:1.4fr 0.9fr;gap:var(--gap);align-items:start;max-width:var(--container);margin:0 auto}
+.hero-card{background:var(--bg);border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 0 rgba(0,0,0,0.03);border:1px solid #eee}
+.hero-media{position:relative}
+.hero-media img{width:100%;height:520px;object-fit:cover;display:block}
+.hero-content{position:absolute;left:32px;bottom:40px;color:#fff;max-width:520px}
+.hero-content h1{font-size:56px;line-height:1.02;margin:0;font-weight:800;text-shadow:0 6px 20px rgba(0,0,0,0.45)}
+.hero-content .kicker{font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.85);margin-bottom:8px}
+
+/* Right column stacked tiles */
+.hero-side{display:grid;grid-template-rows:1fr 1fr;gap:var(--gap)}
+.tile{background:var(--surface);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;justify-content:space-between}
+.tile h3{font-size:20px;margin:0 0 10px;font-weight:700}
+.tile .cta{align-self:flex-start;color:var(--brand);text-decoration:none;font-weight:600}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;background:var(--brand);color:#fff;border-radius:999px;text-decoration:none;font-weight:600}
+.btn--ghost{background:transparent;color:var(--brand);border:1px solid #eee}
+
+/* Footer */
+.site-footer{padding:28px;text-align:center;border-top:1px solid #efefef;color:var(--muted);font-size:14px}
+
+/* overlays */
 .rey-overlay{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none}
 .rey-overlay--site{z-index:10}
 
-/* Small utility */
-.container{max-width:1200px;margin:0 auto;padding:0 24px}
-
 /* Features / benefits strip */
-.section-features{padding:28px 0;background:linear-gradient(180deg,#fff,#fbfbfb)}
+.section-features{padding:28px 0;background:linear-gradient(180deg,var(--bg),#fbfbfb)}
 .section-features .features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:center}
 .section-features .feature-item{display:flex;gap:12px;align-items:center}
 .section-features .feature-icon{width:48px;height:48px;color:var(--brand);flex:0 0 48px}
 .section-features .feature-title{font-weight:600;color:#333}
-@media (max-width:900px){
-	.section-features .features-grid{grid-template-columns:repeat(2,1fr)}
+@media (max-width:1000px){
+	.hero-inner{grid-template-columns:1fr}
+	.hero-media img{height:420px}
+	.hero-content h1{font-size:40px}
 }
-@media (max-width:480px){
-	.section-features .features-grid{grid-template-columns:1fr;gap:12px}
+@media (max-width:640px){
+	.section-features .features-grid{grid-template-columns:repeat(2,1fr)}
+	.hero-media img{height:320px}
+	.hero-content{left:18px;bottom:24px}
 }

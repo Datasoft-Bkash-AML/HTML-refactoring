@@ -61,10 +61,22 @@ require_once __DIR__ . '/../config.php';
 </div>
 <!-- Load local Splide assets (vendored). CDN retained as a fallback if needed. -->
 <script src="<?php echo asset_path('js/splide.min.js'); ?>" defer></script>
-<!-- CDN fallback (uncomment if you prefer CDN):
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js" defer></script>
+<!-- CDN fallback (uncomment JS if you prefer CDN):
+<!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js" defer></script> -->
 -->
 <script src="<?php echo asset_path('js/main.js'); ?>" defer></script>
+<!-- Runtime error capture for diagnostics (populated if any uncaught console errors occur) -->
+<div id="runtime-error-log" style="display:none;position:fixed;right:1rem;bottom:1rem;z-index:20000;background:rgba(255,0,0,0.9);color:#fff;padding:0.75rem;border-radius:6px;max-width:360px;overflow:auto;max-height:40vh;font-family:system-ui,Arial,Helvetica,sans-serif;font-size:12px;"></div>
+<script>
+    // Capture uncaught errors and unhandled promise rejections and write into the hidden div
+    (function(){
+        var out = document.getElementById('runtime-error-log');
+        function show(msg){ if(!out) return; out.style.display='block'; out.textContent = msg; console.error('Captured error:', msg); }
+        window.addEventListener('error', function(e){ try{ show(e.message + ' at ' + (e.filename||'') + ':' + (e.lineno||'') ); }catch(_){}});
+        window.addEventListener('unhandledrejection', function(e){ try{ var r = e.reason; show('UnhandledRejection: ' + (r && r.message ? r.message : String(r)) ); }catch(_){}});
+        // Optional: capture console.error calls as well
+        var _err = console.error; console.error = function(){ try{ var args = Array.prototype.slice.call(arguments).map(function(a){ return (typeof a === 'object' && a && a.message) ? a.message : String(a); }).join(' | '); show(args); }catch(_){ } _err.apply(console, arguments); };
+    })();
+</script>
 </body>
 </html>

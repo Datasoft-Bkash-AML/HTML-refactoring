@@ -8,9 +8,20 @@ require_once __DIR__ . '/../config.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>PHP Project - Assembled Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo asset_path('css/theme.css'); ?>">
     <link rel="stylesheet" href="<?php echo asset_path('css/style.css'); ?>">
     <link rel="stylesheet" href="<?php echo asset_path('css/components.css'); ?>">
     <link rel="stylesheet" href="<?php echo asset_path('css/splide.min.css'); ?>">
+    <style>
+        /* Override Splide's default visibility:hidden to avoid blank gaps
+           while still preventing FOUC. We use opacity so layout remains stable
+           and transition to visible when Splide mounts. */
+        .splide{visibility:visible;opacity:0;transition:opacity .18s ease-in-out}
+        .splide.is-initialized,.splide.is-rendered{opacity:1}
+    </style>
 </head>
 <body>
 

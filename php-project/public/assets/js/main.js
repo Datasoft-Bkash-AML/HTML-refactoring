@@ -32,6 +32,8 @@
                 // expose instance for accessibility hooks and debugging
                 root.__splideInstance = s;
                 root.__splideMounted = true;
+                    // ensure visible after mount (in case CSS kept it hidden)
+                    try{ root.classList.add('is-initialized'); }catch(e){}
                 // ensure the splide root is focusable so we can capture keyboard events
                 if(!root.hasAttribute('tabindex')){
                     root.setAttribute('tabindex', '0');

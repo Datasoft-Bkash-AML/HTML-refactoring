@@ -1,63 +1,82 @@
 <?php
-// Minimal PHP entry that assembles components step-by-step
+// Public entry: load config, then render components in logical groups.
+// This keeps the file compact and makes it easier to manage component order.
 require_once __DIR__ . '/../config.php';
-require __DIR__ . '/../components/header.php';
-require __DIR__ . '/../components/site-wrapper.php';
-?>
 
-        <?php // site wrapper replaced `section-001.php` ?>
-        <?php include __DIR__ . '/../components/section-hero-page.php'; ?>
-        <?php include __DIR__ . '/../components/hero-slider.php'; ?>
-        <?php include __DIR__ . '/../components/feature-headings.php'; ?>
-        <?php include __DIR__ . '/../components/hero.php'; ?>
-        <?php include __DIR__ . '/../components/cta-button.php'; ?>
-        <?php include __DIR__ . '/../components/promo-badge.php'; ?>
-        <?php include __DIR__ . '/../components/newsletter-cta.php'; ?>
-        <?php include __DIR__ . '/../components/section-features.php'; ?>
-        <?php include __DIR__ . '/../components/carousel-new-arrivals.php'; ?>
-        <?php include __DIR__ . '/../components/section-title-soundscape.php'; ?>
-        <?php include __DIR__ . '/../components/bg-column.php'; ?>
-        <?php include __DIR__ . '/../components/eyewear-made.php'; ?>
-        <?php include __DIR__ . '/../components/comfort-heading.php'; ?>
-        <?php include __DIR__ . '/../components/discover-cta.php'; ?>
-        <?php include __DIR__ . '/../components/promo-split.php'; ?>
-        <?php include __DIR__ . '/../components/promotions-carousel.php'; ?>
-        <?php include __DIR__ . '/../components/promo-hero.php'; ?>
-        <?php include __DIR__ . '/../components/design-section.php'; ?>
-        <?php include __DIR__ . '/../components/column-background.php'; ?>
-        <?php include __DIR__ . '/../components/eyebrow-heading.php'; ?>
-        <?php include __DIR__ . '/../components/category-carousel.php'; ?>
-        <?php include __DIR__ . '/../components/carousel-flash-deals.php'; ?>
-        <?php include __DIR__ . '/../components/newsletter-mailchimp.php'; ?>
-        <?php include __DIR__ . '/../components/mailchimp-response.php'; ?>
-        <?php include __DIR__ . '/../components/product-label.php'; ?>
-        <?php include __DIR__ . '/../components/product-feature.php'; ?>
+// Core layout components (rendered in page order)
+$layout = [
+        'components/section-hero-page.php',
+        'components/hero-slider.php',
+        'components/feature-headings.php',
+        'components/hero.php',
+        'components/cta-button.php',
+        'components/promo-badge.php',
+        'components/newsletter-cta.php',
+        'components/section-features.php',
+        'components/carousel-new-arrivals.php',
+        'components/section-title-soundscape.php',
+        'components/bg-column.php',
+        'components/eyewear-made.php',
+        'components/comfort-heading.php',
+        'components/discover-cta.php',
+        'components/promo-split.php',
+        'components/promotions-carousel.php',
+        'components/promo-hero.php',
+        'components/design-section.php',
+        'components/column-background.php',
+        'components/eyebrow-heading.php',
+        'components/category-carousel.php',
+        'components/carousel-flash-deals.php',
+        'components/newsletter-mailchimp.php',
+        'components/mailchimp-response.php',
+        'components/product-label.php',
+        'components/product-feature.php',
+];
 
-?>
-        <!-- Interactive / utility components (off-screen panels, templates, JS-driven pieces)
-             These are intentionally included near the end of the page and are usually hidden
-             until JS toggles them (quickview, cart, demo panel, search, wishlist, svg sprites). -->
-        <?php include __DIR__ . '/../components/cart-panel.php'; ?>
-        <?php include __DIR__ . '/../components/cart-panel-tabs.php'; ?>
-        <?php include __DIR__ . '/../components/cart-recent.php'; ?>
-        <?php include __DIR__ . '/../components/cross-sells.php'; ?>
-        <?php include __DIR__ . '/../components/wishlist.php'; ?>
+// Interactive / utility components that are included near the end of the document
+// (off-screen panels, templates, JS-driven pieces)
+$interactive = [
+        'components/cart-panel.php',
+        'components/cart-panel-tabs.php',
+        'components/cart-recent.php',
+        'components/cross-sells.php',
+        'components/wishlist.php',
+        'components/account-panel.php',
+        'components/account-forms.php',
+        'components/account-links.php',
+        'components/account-wishlist.php',
+        'components/demo-panel.php',
+        'components/demo-panel-extras.php',
+        'components/quickview-panel.php',
+        'components/search-panel.php',
+        'components/search-extras.php',
+        'components/search-items.php',
+        'components/svg-holder.php',
+];
 
-        <?php include __DIR__ . '/../components/account-panel.php'; ?>
-        <?php include __DIR__ . '/../components/account-forms.php'; ?>
-        <?php include __DIR__ . '/../components/account-links.php'; ?>
-        <?php include __DIR__ . '/../components/account-wishlist.php'; ?>
+// Header and wrapper are required — fail fast if missing
+require_once __DIR__ . '/../components/header.php';
+require_once __DIR__ . '/../components/site-wrapper.php';
 
-        <?php include __DIR__ . '/../components/demo-panel.php'; ?>
-        <?php include __DIR__ . '/../components/demo-panel-extras.php'; ?>
+// Helper to include components safely (warn if missing)
+$include_component = function (string $relativePath) {
+        $path = __DIR__ . '/../' . $relativePath;
+        if (file_exists($path)) {
+                include $path;
+        } else {
+                trigger_error("Component not found: {$relativePath}", E_USER_WARNING);
+        }
+};
 
-        <?php include __DIR__ . '/../components/quickview-panel.php'; ?>
+// Render layout components
+foreach ($layout as $component) {
+        $include_component($component);
+}
 
-        <?php include __DIR__ . '/../components/search-panel.php'; ?>
-        <?php include __DIR__ . '/../components/search-extras.php'; ?>
-        <?php include __DIR__ . '/../components/search-items.php'; ?>
+// Render interactive components
+foreach ($interactive as $component) {
+        $include_component($component);
+}
 
-        <?php include __DIR__ . '/../components/svg-holder.php'; ?>
-
-        <?php
-        require __DIR__ . '/../components/footer.php';
+// Footer (required)
+require_once __DIR__ . '/../components/footer.php';
